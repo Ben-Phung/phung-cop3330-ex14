@@ -16,10 +16,10 @@ public class App
         double WItax = .055;
 
         // Prompt input
-        System.out.println("What is the order amount? ");
+        System.out.print("What is the order amount? ");
         String Order = scan.nextLine();
 
-        System.out.println("What is the state? ");
+        System.out.print("What is the state? ");
         String State = scan.nextLine();
 
         double dOrder = Double.parseDouble(Order);
